@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>duclos_o</Author>
+  <LastAuthor>duclos_o</LastAuthor>
+  <LastPrinted>2014-10-21T13:39:52Z</LastPrinted>
+  <Created>2014-10-15T08:19:55Z</Created>
+  <LastSaved>2014-10-22T09:20:34Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12435</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s36" ss:Name="Explanatory Text">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#7F7F7F"
+    ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Good">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#006100"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="Neutral">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#9C6500"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s73" ss:Parent="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <NumberFormat ss:Format="dd\-mmm"/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <NumberFormat ss:Format="#&quot; &quot;?/?"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s36">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Absences WAC1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="219.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="259.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="149.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">to</Data></Cell>
+    <Cell><Data ss:Type="String">cc</Data></Cell>
+    <Cell><Data ss:Type="String">subject</Data></Cell>
+    <Cell><Data ss:Type="String">Prénom, Nom:</Data></Cell>
+    <Cell><Data ss:Type="String">Nomber d'absences justifiées:</Data></Cell>
+    <Cell><Data ss:Type="String">Nombre d'absences non justifiées:</Data></Cell>
+    <Cell><Data ss:Type="String">Nombre de retards:</Data></Cell>
+    <Cell><Data ss:Type="String">Commentaire de l'équipe pédagogique:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:philippe.tarrare@yoorz.net"><Data
+      ss:Type="String">philippe.tarrare@yoorz.net</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:adoui_y@epitech.eu"><Data
+      ss:Type="String">adoui_y@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yanis ADOUI</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:v.torres@sav-group.com"><Data
+      ss:Type="String">v.torres@sav-group.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:anzer_r@epitech.eu"><Data
+      ss:Type="String">anzer_r@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ryan ANZER</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:s.delmas@powersante.com"><Data
+      ss:Type="String">s.delmas@powersante.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:bompar_a@epitech.eu"><Data
+      ss:Type="String">bompar_a@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Paul BOMPARD</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:marie-estelle.demolliens@cloudwatt.com"><Data
+      ss:Type="String">marie-estelle.demolliens@cloudwatt.com, vanessa.msika@cloudwatt.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:christ_a@epitech.eu"><Data
+      ss:Type="String">christ_a@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ambroise CHRISTEA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:sebastien.duburque@energiency.com"><Data
+      ss:Type="String">sebastien.duburque@energiency.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:chuana_m@epitech.eu"><Data
+      ss:Type="String">chuana_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Michelle CHUA NARRA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention à rester en salle toute la journée</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:aurelie@spacefoot.com"><Data
+      ss:Type="String">aurelie@spacefoot.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:derrou_s@epitech.eu"><Data
+      ss:Type="String">derrou_s@epitech.eu, sophie.viger@epitech.eu, pierre.winsback@footeo.com</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sofiane DERROUAZI</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:christelle@brandandcelebrities.com"><Data
+      ss:Type="String">christelle@brandandcelebrities.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:devill_p@epitech.eu"><Data
+      ss:Type="String">devill_p@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre DEVILLE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:marie-estelle.demolliens@cloudwatt.com"><Data
+      ss:Type="String">marie-estelle.demolliens@cloudwatt.com, vanessa.msika@cloudwatt.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:fortas_t@epitech.eu"><Data
+      ss:Type="String">fortas_t@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Thomas FORTASSIN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:guillaume.lebon@businessdecision.com'"><Data
+      ss:Type="String">guillaume.lebon@businessdecision.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:fruit_d@epitech.eu"><Data
+      ss:Type="String">fruit_d@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Dimitri FRUIT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention à la ponctualité et aux absences</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:morgan@explee.com"><Data
+      ss:Type="String">morgan@explee.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:grandj_n@epitech.eu"><Data
+      ss:Type="String">grandj_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell><Data ss:Type="String">Néhémie GRANDJEAN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:julie@oneheartcommunication.com"><Data
+      ss:Type="String">julie@oneheartcommunication.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:gresel_c@epitech.eu"><Data
+      ss:Type="String">gresel_c@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Camille GRESELLE </Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention à la ponctualité</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:pierlag@microsoft.com"><Data
+      ss:Type="String">pierlag@microsoft.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:iferga_e@epitech.eu"><Data
+      ss:Type="String">iferga_e@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Elinor IFERGAN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:comptabilite@beauteprivee.com"><Data
+      ss:Type="String">comptabilite@beauteprivee.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:isidor_t@epitech.eu"><Data
+      ss:Type="String">isidor_t@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Teddy ISIDOR</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:yj@myj-am.com"><Data ss:Type="String">yj@myj-am.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:jetha_r@epitech.eu"><Data
+      ss:Type="String">jetha_r@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Rohid JETHA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:mcd@decofinder.com"><Data
+      ss:Type="String">mcd@decofinder.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:lagach_p@epitech.eu"><Data
+      ss:Type="String">lagach_p@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre LAGACHE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:lionel@sosinformatique.com"><Data
+      ss:Type="String">lionel@sosinformatique.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:lamber_n@epitech.eu"><Data
+      ss:Type="String">lamber_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Guillaume LAMBERT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention aux absences</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:nicolas.thouzeau@padawangroup.com"><Data
+      ss:Type="String">nicolas.thouzeau@padawangroup.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:leheri_d@epitech.eu"><Data
+      ss:Type="String">leheri_d@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Damien LEHERICY</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:sebastien.duburque@energiency.com"><Data
+      ss:Type="String">sebastien.duburque@energiency.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:letohi_x@epitech.eu"><Data
+      ss:Type="String">letohi_x@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell><Data ss:Type="String">Xavier LE TOHIC</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention à la présence en salle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:pejvan@mozoo.com"><Data ss:Type="String">pejvan@mozoo.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:lopes_l@epitech.eu"><Data
+      ss:Type="String">lopes_l@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Hugo LOPES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">0.5</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:serge.milon@simpki.com"><Data
+      ss:Type="String">serge.milon@simpki.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:moulay_j@epitech.eu"><Data
+      ss:Type="String">moulay_j@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Josselin MOULAY</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">1.5</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention aux absences</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:etapero@adenistelecom.fr"><Data
+      ss:Type="String">etapero@adenistelecom.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:nguye-_g@epitech.eu"><Data
+      ss:Type="String">nguye-_g@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Germain NGUYEN</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:fducos@vodo.fr"><Data ss:Type="String">fducos@vodo.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:olivei_m@epitech.eu"><Data
+      ss:Type="String">olivei_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Marco OLIVEIRA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">2.5</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention aux absences</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:afavre@imex-media.com"><Data
+      ss:Type="String">afavre@imex-media.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:oukaci_w@epitech.eu"><Data
+      ss:Type="String">oukaci_w@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Walid OUKACI</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:sonia.sassi@modisfrance.fr"><Data
+      ss:Type="String">sonia.sassi@modisfrance.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:reygni_p@epitech.eu"><Data
+      ss:Type="String">reygni_p@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre-Yves REYGNIER</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:solene@colorz.fr"><Data ss:Type="String">solene@colorz.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:rivier_n@epitech.eu"><Data
+      ss:Type="String">rivier_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RIVIERE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:cfiorani@expertime.com"><Data
+      ss:Type="String">cfiorani@expertime.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:rubio_n@epitech.eu"><Data
+      ss:Type="String">rubio_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:dmarciano@adenis.fr'"><Data
+      ss:Type="String">dmarciano@adenis.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:servai_m@epitech.eu"><Data
+      ss:Type="String">servai_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Matthieu SERVAIS</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:cfreisz@valwin.fr"><Data
+      ss:Type="String">cfreisz@valwin.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:wipula_m@epitech.eu"><Data
+      ss:Type="String">wipula_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Marc WIPULANANTHARAJAH </Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Très bien</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:lucas.yalap@gmail.com"><Data
+      ss:Type="String">lucas.yalap@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:yalap_t@epitech.eu"><Data
+      ss:Type="String">yalap_t@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Bilan Octobre Web@cadémie</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Thomas YALAP</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">1.5</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Attention aux absences</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C5:R30C5</Range>
+   <Condition>
+    <Qualifier>Greater</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C6:R30C6</Range>
+   <Condition>
+    <Qualifier>Greater</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C7,R10C7,R12C7</Range>
+   <Condition>
+    <Qualifier>Greater</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R30C7,R17C7,R21C7:R22C7,R28C7</Range>
+   <Condition>
+    <Qualifier>Greater</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

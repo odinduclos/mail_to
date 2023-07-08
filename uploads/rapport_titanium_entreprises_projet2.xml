@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>duclos_o</Author>
+  <LastAuthor>duclos_o</LastAuthor>
+  <Created>2014-11-26T13:06:43Z</Created>
+  <LastSaved>2014-11-26T12:00:19Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12435</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s49" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s49">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s49">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="export">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s60" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s59" ss:AutoFitWidth="0" ss:Width="135" ss:Span="1"/>
+   <Column ss:Index="6" ss:StyleID="s61" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s60" ss:AutoFitWidth="0" ss:Width="399"/>
+   <Column ss:StyleID="s60" ss:AutoFitWidth="0" ss:Width="318"/>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">to</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">cc</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">subject</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Prénom Nom</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Groupe</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Note</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Commentaire du reponsable du module</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Commentaire du responsable pédagogique</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="19.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:philippe.tarrare@yoorz.net"><Data
+      ss:Type="String">philippe.tarrare@yoorz.net</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:adoui_y@epitech.eu"><Data
+      ss:Type="String">adoui_y@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Yanis ADOUI</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yanis ADOUI</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Damien LEHERICY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">appli ExpressTrack. Bons slides, code moyen mais des efforts. Il manque de la rigueur sur la qualité technique. Il faut travailler la bonne compréhension des constructs javascript (par exemple les prototypes, etc.) et les standards de codage.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:Morgane.DIDIERJEAN@berger-levrault.fr"><Data
+      ss:Type="String">Morgane.DIDIERJEAN@berger-levrault.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:belmon_l@epitech.eu"><Data
+      ss:Type="String">belmon_l@epitech.eu, sophie.viger@epitech.eu, Melka.PARIS@berger-levrault.fr</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Loic BELMONT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Loic BELMONT</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Absent</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a fait aucun projet Appcelerator Titanium. La pédagogie Web@cadémie n'est pas à la carte. Son comportement est inadmissible.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:v.torres@sav-group.com"><Data
+      ss:Type="String">v.torres@sav-group.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:anzer_r@epitech.eu"><Data
+      ss:Type="String">anzer_r@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Ryan ANZER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ryan ANZER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ambroise CHRISTEA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">16.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">appli de multitraduction. excellent js et bonne pres. L'idée est super originale et la réalisation bien faite. Quelques réticences sur l'emploi de Ti.UI.create*(), mais ça reste du détail. certains aspects du code sont un plaisir à lire. Il faut plus travailler &quot;l'emballage&quot; pour vos prochains projets : - qualité graphique - ergonomie (ça compte, on fait du mobile...) - commentaires, qualité logicielle. Le résultat est très satisfaisant toutefois. Attention à reste humble ;-)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:s.delmas@powersante.com"><Data
+      ss:Type="String">s.delmas@powersante.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:bompar_a@epitech.eu"><Data
+      ss:Type="String">bompar_a@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Paul BOMPARD</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Paul BOMPARD</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Thomas FORTASSIN</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">allomovie - réalisation pas mal, bonne présentation. Reprise du premier projet de Thomas, avec des corrections et améliorations suggérées lors de la première soutenance, on sent que ça a bien progressé. Le design n'est pas encore là mais ce n'est pas grave :-) On sent qu'il y a eu du travail et de l'engagement. L'objectif de maîtrise de Titanium est rempli, même s'il reste encore plein de choses à faire pour en faire un projet professionnel.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:marie-estelle.demolliens@cloudwatt.com"><Data
+      ss:Type="String">marie-estelle.demolliens@cloudwatt.com, vanessa.msika@cloudwatt.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:christ_a@epitech.eu"><Data
+      ss:Type="String">christ_a@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Ambroise CHRISTEA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ambroise CHRISTEA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ryan ANZER</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">16.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">appli de multitraduction. excellent js et bonne pres. L'idée est super originale et la réalisation bien faite. Quelques réticences sur l'emploi de Ti.UI.create*(), mais ça reste du détail. certains aspects du code sont un plaisir à lire. Il faut plus travailler &quot;l'emballage&quot; pour vos prochains projets : - qualité graphique - ergonomie (ça compte, on fait du mobile...) - commentaires, qualité logicielle. Le résultat est très satisfaisant toutefois. Attention à reste humble ;-)</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:sebastien.duburque@energiency.com"><Data
+      ss:Type="String">sebastien.duburque@energiency.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:chuana_m@epitech.eu"><Data
+      ss:Type="String">chuana_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Michelle CHUA NARRA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Michelle CHUA NARRA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Xavier LE TOHIC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">11.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">app de calcul de salaire. Je n'ai pas pu en récupérer le code pour des raisons de droit (je n'ai jamais vu ça avant - anyway...) Les mockups sont très bien, la présentation par l'équipe projet aussi. L'examen du code (sur la machine des devs) montre des approches (trop) compliquées qui démontrent une absence de travail constant. Il y a eu un travail en urgence 3 jorus avant la soutenance, c'est dommage parce qu'on voit une aisance certaine avec javascript. Ce projet et le travail de l'équipe sont décevants face à ce que ça aurait pu être avec un minimum de travail constant.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Essayez de mieux répartir votre travail.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:aurelie@spacefoot.com"><Data
+      ss:Type="String">aurelie@spacefoot.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:derrou_s@epitech.eu"><Data
+      ss:Type="String">derrou_s@epitech.eu, sophie.viger@epitech.eu, pierre.winsback@footeo.com</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Sofiane DERROUAZI</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sofiane DERROUAZI</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RIVIERE, Elinor IFERGAN, Hugo LOPES, Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">18.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">excellent, bonne présentation, très bon projet, contribs oss. Bonne présentation, chaque membre du groupe semble impliqué même si à des niveaux différents. Le résultat technique est très très satisfaisant, niveau quasi pro. On sent un réel investissement et de l'intelligence dans l'approche projet. L'équipe a également contribué à deux petits projets OpenSource, c'est vraiment très bien.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:christelle@brandandcelebrities.com"><Data
+      ss:Type="String">christelle@brandandcelebrities.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:devill_p@epitech.eu"><Data
+      ss:Type="String">devill_p@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Pierre DEVILLE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre DEVILLE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre-Yves REYGNIER</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">appli steam plutôt bien faite, bonne présentation. On sent un travail sérieux. La présentation est de bonne facture et le résultat de l'application plutôt bien fait. L'utilisation des ACS est un plus même si l'équipe en a bien compris les limites en termes de performance. Il faudrait encore beaucoup de travail pour arriver à sortir l'application, mais les objectifs de découverte de Titanium sont très bien remplis.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:marie-estelle.demolliens@cloudwatt.com"><Data
+      ss:Type="String">marie-estelle.demolliens@cloudwatt.com, vanessa.msika@cloudwatt.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:fortas_t@epitech.eu"><Data
+      ss:Type="String">fortas_t@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Thomas FORTASSIN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Thomas FORTASSIN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Paul BOMPARD</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">allomovie - réalisation pas mal, bonne présentation. Reprise du premier projet de Thomas, avec des corrections et améliorations suggérées lors de la première soutenance, on sent que ça a bien progressé. Le design n'est pas encore là mais ce n'est pas grave :-) On sent qu'il y a eu du travail et de l'engagement. L'objectif de maîtrise de Titanium est rempli, même s'il reste encore plein de choses à faire pour en faire un projet professionnel.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:guillaume.lebon@businessdecision.com'"><Data
+      ss:Type="String">guillaume.lebon@businessdecision.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:fruit_d@epitech.eu"><Data
+      ss:Type="String">fruit_d@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Dimitri FRUIT</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Dimitri FRUIT</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Camille GRESELLE </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Mockups très moyens, pas de code, présentation moyenne, compréhension minimale d'alloy et titanium.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a pas fait le projet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:morgan@explee.com"><Data
+      ss:Type="String">morgan@explee.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:grandj_n@epitech.eu"><Data
+      ss:Type="String">grandj_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Néhémie GRANDJEAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Néhémie GRANDJEAN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Matthieu SERVAIS</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5.5</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">pas d'appli, quelques tentatives d'explications. Au final impression très moyenne ; je pense que vous n'avez pas travaillé pour ce projet.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a pas fait le projet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:julie@oneheartcommunication.com"><Data
+      ss:Type="String">julie@oneheartcommunication.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:gresel_c@epitech.eu"><Data
+      ss:Type="String">gresel_c@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Camille GRESELLE </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Camille GRESELLE </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Dimitri FRUIT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Mockups très moyens, pas de code, présentation moyenne, compréhension minimale d'alloy et titanium.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a pas fait le projet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:pierlag@microsoft.com"><Data
+      ss:Type="String">pierlag@microsoft.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:iferga_e@epitech.eu"><Data
+      ss:Type="String">iferga_e@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Elinor IFERGAN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Elinor IFERGAN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RIVIERE, Sofiane DERROUAZI, Hugo LOPES, Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">18.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">excellent, bonne présentation, très bon projet, contribs oss. Bonne présentation, chaque membre du groupe semble impliqué même si à des niveaux différents. Le résultat technique est très très satisfaisant, niveau quasi pro. On sent un réel investissement et de l'intelligence dans l'approche projet. L'équipe a également contribué à deux petits projets OpenSource, c'est vraiment très bien.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:comptabilite@beauteprivee.com"><Data
+      ss:Type="String">comptabilite@beauteprivee.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:isidor_t@epitech.eu"><Data
+      ss:Type="String">isidor_t@epitech.eu, sophie.viger@epitech.eu, qmathis@beauteprivee.com</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Teddy ISIDOR</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Teddy ISIDOR</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Marco OLIVEIRA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Appli chronomètre - peu de choses fonctionnenent, même s'il y a eu quelques efforts. Les mockups sont minimalistes. Il faut d'avantage travailler, et demander de l'aide si vous bloquez. C'est votre responsabilité de faire avancer vos projets ! C'est dommage, parce que ça se sent que vous avez compris des trucs...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Plus de travail est nécéssaire pour la Web@cadémie.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:yj@myj-am.com"><Data ss:Type="String">yj@myj-am.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:jetha_r@epitech.eu"><Data
+      ss:Type="String">jetha_r@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Rohid JETHA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Rohid JETHA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Walid OUKACI</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">MYJ trades - présentation bien, projet moyen. Reprise du premier projet de Rohid, MYJ trades n'est pas un projet extrèmement compliqué (quelques ListViews) et l'équipe a un peu trop tôt baissé les bras sur la partie authentification. Le résultat est plutôt qualitatif mais manque un peu de volume quand même. Il faut plus travailler la présentation, un peu trop scolaire. On sent que vous avez une bonne capacité à présenter des sujets pro, il faut plus en profiter et ne pas hésiter à montrer d'avantage de mockups / idées, même si vous ne savez pas exactement comment les réaliser.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:mcd@decofinder.com"><Data
+      ss:Type="String">mcd@decofinder.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:lagach_p@epitech.eu"><Data
+      ss:Type="String">lagach_p@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Pierre LAGACHE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre LAGACHE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Josselin MOULAY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Application faceroll. Pas de slides ni de présentation. API développée en nodejs, bien fait. Explications moyennes sur le fonctionnement global. Rien développé en Titanium / pas de projet mobile présenté. Mockups bien. C'est dommage, votre présentation est un peu hors sujet. On a l'impression que vous avez pris du temps à développer l'API en oubliant un peu l'objectif principal, à savoir développer une appli mobile...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Essayez de mieux respecter le sujet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:lionel@sosinformatique.com"><Data
+      ss:Type="String">lionel@sosinformatique.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:lamber_n@epitech.eu"><Data
+      ss:Type="String">lamber_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Guillaume LAMBERT</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Guillaume LAMBERT</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Marc WIPULANANTHARAJAH </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Pas de projet à présenter, mais mockups rendus. Projet Titanium au boulot qu'ils envoient de manière séparée (citycheck). Après examen du projet professionnel CityCheck (= pas le projet fait pour le cours), le résultat est malgré tout moyen : sous-utilisation des styles, coding standards peu respectés. Intégration d'un module natif qui fait la partie la plus attrayante de l'appli mais sinon ça reste léger...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a pas fait le projet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:nicolas.thouzeau@padawangroup.com"><Data
+      ss:Type="String">nicolas.thouzeau@padawangroup.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:leheri_d@epitech.eu"><Data
+      ss:Type="String">leheri_d@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Damien LEHERICY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Damien LEHERICY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yanis ADOUI</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">appli ExpressTrack. Bons slides, code moyen mais des efforts. Il manque de la rigueur sur la qualité technique. Il faut travailler la bonne compréhension des constructs javascript (par exemple les prototypes, etc.) et les standards de codage.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:sebastien.duburque@energiency.com"><Data
+      ss:Type="String">sebastien.duburque@energiency.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:letohi_x@epitech.eu"><Data
+      ss:Type="String">letohi_x@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Xavier LE TOHIC</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Xavier LE TOHIC</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Michelle CHUA NARRA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">11.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">app de calcul de salaire. Je n'ai pas pu en récupérer le code pour des raisons de droit (je n'ai jamais vu ça avant - anyway...) Les mockups sont très bien, la présentation par l'équipe projet aussi. L'examen du code (sur la machine des devs) montre des approches (trop) compliquées qui démontrent une absence de travail constant. Il y a eu un travail en urgence 3 jorus avant la soutenance, c'est dommage parce qu'on voit une aisance certaine avec javascript. Ce projet et le travail de l'équipe sont décevants face à ce que ça aurait pu être avec un minimum de travail constant.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Essayez de mieux répartir votre travail.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:pejvan@mozoo.com"><Data ss:Type="String">pejvan@mozoo.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:lopes_l@epitech.eu"><Data
+      ss:Type="String">lopes_l@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Hugo LOPES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Hugo LOPES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RIVIERE, Sofiane DERROUAZI, Elinor IFERGAN, Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">18.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">excellent, bonne présentation, très bon projet, contribs oss. Bonne présentation, chaque membre du groupe semble impliqué même si à des niveaux différents. Le résultat technique est très très satisfaisant, niveau quasi pro. On sent un réel investissement et de l'intelligence dans l'approche projet. L'équipe a également contribué à deux petits projets OpenSource, c'est vraiment très bien.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:serge.milon@simpki.com"><Data
+      ss:Type="String">serge.milon@simpki.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:moulay_j@epitech.eu"><Data
+      ss:Type="String">moulay_j@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Josselin MOULAY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Josselin MOULAY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre LAGACHE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Application faceroll. Pas de slides ni de présentation. API développée en nodejs, bien fait. Explications moyennes sur le fonctionnement global. Rien développé en Titanium / pas de projet mobile présenté. Mockups bien. C'est dommage, votre présentation est un peu hors sujet. On a l'impression que vous avez pris du temps à développer l'API en oubliant un peu l'objectif principal, à savoir développer une appli mobile...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Essayez de mieux respecter le sujet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:ali@agence-dozo.fr"><Data
+      ss:Type="String">ali@agence-dozo.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:nguye-_g@epitech.eu"><Data
+      ss:Type="String">nguye-_g@epitech.eu, sophie.viger@epitech.eu, e.tapero@adenistelecom.fr</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Germain NGUYEN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Germain NGUYEN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Thomas YALAP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Application de directions (pour trouver restaurant, hotel, etc.). S'appuie sur l'API Gmaps. Utilisation de code trouvé sur le net pour dessiner le trajet. La présentation et les mockups sont ok. La qualité technique du proijet est très légère, mais remplit le contrat fixé dans le cadre du cycle projet. Je suis globalement satisfait par le résultat même si je pense que ça aurait pu aller un peu plus loin.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:fducos@vodo.fr"><Data ss:Type="String">fducos@vodo.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:olivei_m@epitech.eu"><Data
+      ss:Type="String">olivei_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Marco OLIVEIRA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Marco OLIVEIRA</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Teddy ISIDOR</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Appli chronomètre - peu de choses fonctionnenent, même s'il y a eu quelques efforts. Les mockups sont minimalistes. Il faut d'avantage travailler, et demander de l'aide si vous bloquez. C'est votre responsabilité de faire avancer vos projets ! C'est dommage, parce que ça se sent que vous avez compris des trucs...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Plus de travail est nécéssaire pour la Web@cadémie.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:afavre@imex-media.com"><Data
+      ss:Type="String">afavre@imex-media.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:oukaci_w@epitech.eu"><Data
+      ss:Type="String">oukaci_w@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Walid OUKACI</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Walid OUKACI</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Rohid JETHA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">MYJ trades - présentation bien, projet moyen. Reprise du premier projet de Rohid, MYJ trades n'est pas un projet extrèmement compliqué (quelques ListViews) et l'équipe a un peu trop tôt baissé les bras sur la partie authentification. Le résultat est plutôt qualitatif mais manque un peu de volume quand même. Il faut plus travailler la présentation, un peu trop scolaire. On sent que vous avez une bonne capacité à présenter des sujets pro, il faut plus en profiter et ne pas hésiter à montrer d'avantage de mockups / idées, même si vous ne savez pas exactement comment les réaliser.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:sonia.sassi@modisfrance.fr"><Data
+      ss:Type="String">sonia.sassi@modisfrance.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:reygni_p@epitech.eu"><Data
+      ss:Type="String">reygni_p@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Pierre-Yves REYGNIER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre-Yves REYGNIER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Pierre DEVILLE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">appli steam plutôt bien faite, bonne présentation. On sent un travail sérieux. La présentation est de bonne facture et le résultat de l'application plutôt bien fait. L'utilisation des ACS est un plus même si l'équipe en a bien compris les limites en termes de performance. Il faudrait encore beaucoup de travail pour arriver à sortir l'application, mais les objectifs de découverte de Titanium sont très bien remplis.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:solene@colorz.fr"><Data ss:Type="String">solene@colorz.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:rivier_n@epitech.eu"><Data
+      ss:Type="String">rivier_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Nicolas RIVIERE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RIVIERE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sofiane DERROUAZI, Elinor IFERGAN, Hugo LOPES, Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">18.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">excellent, bonne présentation, très bon projet, contribs oss. Bonne présentation, chaque membre du groupe semble impliqué même si à des niveaux différents. Le résultat technique est très très satisfaisant, niveau quasi pro. On sent un réel investissement et de l'intelligence dans l'approche projet. L'équipe a également contribué à deux petits projets OpenSource, c'est vraiment très bien.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:cfiorani@expertime.com"><Data
+      ss:Type="String">cfiorani@expertime.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:rubio_n@epitech.eu"><Data
+      ss:Type="String">rubio_n@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RUBIO</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Nicolas RIVIERE, Sofiane DERROUAZI, Elinor IFERGAN, Hugo LOPES</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">18.5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">excellent, bonne présentation, très bon projet, contribs oss. Bonne présentation, chaque membre du groupe semble impliqué même si à des niveaux différents. Le résultat technique est très très satisfaisant, niveau quasi pro. On sent un réel investissement et de l'intelligence dans l'approche projet. L'équipe a également contribué à deux petits projets OpenSource, c'est vraiment très bien.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:ali@agence-dozo.fr"><Data
+      ss:Type="String">ali@agence-dozo.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:nguye-_g@epitech.eu"><Data
+      ss:Type="String">nguye-_g@epitech.eu, sophie.viger@epitech.eu, e.tapero@adenistelecom.fr</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Matthieu SERVAIS</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Matthieu SERVAIS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Néhémie GRANDJEAN</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5.5</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">pas d'appli, quelques tentatives d'explications. Au final impression très moyenne ; je pense que vous n'avez pas travaillé pour ce projet.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a pas fait le projet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:cfreisz@valwin.fr"><Data
+      ss:Type="String">cfreisz@valwin.fr</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:wipula_m@epitech.eu"><Data
+      ss:Type="String">wipula_m@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Marc WIPULANANTHARAJAH </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Marc WIPULANANTHARAJAH </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Guillaume LAMBERT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Pas de projet à présenter, mais mockups rendus. Projet Titanium au boulot qu'ils envoient de manière séparée (citycheck). Après examen du projet professionnel CityCheck (= pas le projet fait pour le cours), le résultat est malgré tout moyen : sous-utilisation des styles, coding standards peu respectés. Intégration d'un module natif qui fait la partie la plus attrayante de l'appli mais sinon ça reste léger...</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">N'a pas fait le projet.</Data></Cell>
+   </Row>
+   <Row ss:Height="16.5">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:lucas.yalap@gmail.com"><Data
+      ss:Type="String">lucas.yalap@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:yalap_t@epitech.eu"><Data
+      ss:Type="String">yalap_t@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=CONCATENATE(&quot;Note projet de groupe Appcelerator Titanium 14/11/2014 - &quot;, RC[1])"><Data
+      ss:Type="String">Note projet de groupe Appcelerator Titanium 14/11/2014 - Thomas YALAP</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Thomas YALAP</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Germain NGUYEN</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Application de directions (pour trouver restaurant, hotel, etc.). S'appuie sur l'API Gmaps. Utilisation de code trouvé sur le net pour dessiner le trajet. La présentation et les mockups sont ok. La qualité technique du proijet est très légère, mais remplit le contrat fixé dans le cadre du cycle projet. Je suis globalement satisfait par le résultat même si je pense que ça aurait pu aller un peu plus loin.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Très bien.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>30</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowFormatCells/>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+   <AllowInsertCols/>
+   <AllowInsertRows/>
+   <AllowInsertHyperlinks/>
+   <AllowDeleteCols/>
+   <AllowDeleteRows/>
+   <AllowSort/>
+   <AllowFilter/>
+   <AllowUsePivotTables/>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

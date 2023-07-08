@@ -1,0 +1,26 @@
+.align_top {
+	vertical-align: top;
+}
+
+.align_middle {
+	vertical-align: middle;
+}
+
+.main_table {
+	margin-left: 20px;
+	border: none;
+}
+
+header {
+	margin-left: 30px;
+}
+
+nav {
+	margin-left: 30px;
+}
+
+.main_liste {
+	list-style-type: none;
+	margin-left: 30px;
+	margin-top: 40px;
+}

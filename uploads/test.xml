@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>duclos_o</Author>
+  <LastAuthor>duclos_o</LastAuthor>
+  <LastPrinted>2014-10-21T13:39:52Z</LastPrinted>
+  <Created>2014-10-15T08:19:55Z</Created>
+  <LastSaved>2014-10-22T09:20:34Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12435</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Absences WAC1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:Index="6" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="386.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="384"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">to</Data></Cell>
+    <Cell><Data ss:Type="String">cc</Data></Cell>
+    <Cell><Data ss:Type="String">subject</Data></Cell>
+    <Cell><Data ss:Type="String">Prénom, Nom:</Data></Cell>
+    <Cell><Data ss:Type="String">Note:</Data></Cell>
+    <Cell><Data ss:Type="String">Commentaire du reponsable du module:</Data></Cell>
+    <Cell><Data ss:Type="String">Commentaire du responsable pédagogique:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:philippe.tarrare@yoorz.net"><Data
+      ss:Type="String">philippe.tarrare@yoorz.net</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:adoui_y@epitech.eu"><Data
+      ss:Type="String">adoui_y@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Note projet individuel Appcelerator Titanium 17/10/2014</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yanis ADOUI</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">L'idée est originale et utile. C'est dommage que Yanis n'ait pas rendu de mockups (que un brief de l'idée, mais rendu très tôt ce qui est bien). On voit qu'il y a eu du travail technique réalisé. Au final, il reste encore pas mal de travail (graphique notamment) pour faire une application publiable, mais ça marche et c'est fait avec l'envie de bien faire les choses. Pour le prochain projet, je pense qu'il faut vraiment faire tous les mockups AVANT de commencer à coder quoi que ce soit. Il est par exemple idiot que ton application utilise un TabGroup. Dans la même veine, on ne peut pas arrêter de tracker un numéro de suivi, etc. Ce sont des choses dont tu te serais rendu compte en te forçant à dessiner l'application. Du point de vue technique, il faudra chercher d'avantage à utiliser les mécanismes d'Alloy, notamment pour le découpage en plusieurs fichiers. Par exemple, le contrôleur est trop long, et devrait être divisé en plusieurs parties (un contrôleur pour l'ajout de tracking, un pour la liste). Les coding standards sont bien respectés (avec de la DocBlock), ce qui est très bien !</Data></Cell>
+    <Cell><Data ss:Type="String">Bon travail.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s66" ss:HRef="mailto:v.torres@sav-group.com"><Data
+      ss:Type="String">v.torres@sav-group.com</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:anzer_r@epitech.eu"><Data
+      ss:Type="String">anzer_r@epitech.eu, sophie.viger@epitech.eu</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Note projet individuel Appcelerator Titanium 17/10/2014</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Ryan ANZER</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">L'application est loin d'être finie, manifestement par manque de temps. Il n'y a pas eu de présentation, ce qui est décevant. Les mockups présentés au départ n'ont pas du tout été suivis, leur faisabilité étant compliquée. Le résultat marche bien, sur Android et sur iOS. Mais ça donne vraiment l'impression que Ryan n'a pas vraiment cherché à utiliser Titanium, plus à faire du javascript en s'amusant. Alloy n'est pas du tout utilisé, ce qui est dommage - il aurait mieux valu passer un tout petit peu moins de temps sur le moteur de jeu et faire un peu d'interface avec différentes fenêtres, etc.&#10;Pour le prochain projet il faut juste travailler un peu plus sur l'emballage final - tu as une vraie qualité technique en js, dommage que tu n'aies pas cherché à vraiment employer Titanium à fond !</Data></Cell>
+    <Cell><Data ss:Type="String">Bon travail.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <RangeSelection>R4:R30</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
